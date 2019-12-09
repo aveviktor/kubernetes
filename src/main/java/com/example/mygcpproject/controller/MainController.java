@@ -15,4 +15,9 @@ public class MainController {
     String home() {
         return "Hello user, it is the home page";
     }
+
+    @RequestMapping("/toGoogle")
+    String toGoogle() {
+        return "Hello google";
+    }
 }
